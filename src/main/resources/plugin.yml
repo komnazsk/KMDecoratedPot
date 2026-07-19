@@ -1,0 +1,15 @@
+name: KMDecoratedPot
+version: '${version}'
+main: com.github.komnazsk.kmdecoratedpot.KMDecoratedPotPlugin
+api-version: '26.2'
+author: komnazsk
+description: GUIで好みの模様の飾り壺を作成します。
+commands:
+  pot:
+    description: カスタマイズした飾り壺を入手します。
+    usage: /pot [same|front|symmetric|individual] [patterns...]
+    permission: kmdecoratedpot.command.pot
+permissions:
+  kmdecoratedpot.command.pot:
+    description: /pot の使用を許可します。
+    default: true
