@@ -25,6 +25,10 @@ tasks.processResources {
     }
 }
 
+tasks.jar {
+    archiveFileName.set("KMDecoratedPot-1.0-MC26.2.jar")
+}
+
 tasks.withType<JavaCompile>().configureEach {
     options.encoding = "UTF-8"
 }
